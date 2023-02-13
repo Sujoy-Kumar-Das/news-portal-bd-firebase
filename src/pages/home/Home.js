@@ -1,9 +1,11 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+    const allNews = useLoaderData();
     return (
         <div>
-            <h1>This is home component</h1>
+            <h1>Total {allNews.length} found</h1>
         </div>
     );
 };

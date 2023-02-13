@@ -7,8 +7,14 @@ export const routers = createBrowserRouter([
     {path:'/',
     element:<Main></Main>,
     children:[
-        {path:'/',element:<Home></Home>},
-        {path:'/catagory/:id',element:<Catagory></Catagory>}
+        {path:'/',
+        element:<Home></Home>,
+        loader:()=>fetch('http://localhost:5000/')
+        },
+        {path:'/catagory/:id',
+        element:<Catagory></Catagory>,
+        loader:({params})=>fetch(`http://localhost:5000/catagory/${params.id}`)
+        }
     ]
 }
 ])

@@ -11,6 +11,7 @@ const BrandCarusol = () => {
             className="d-block w-100"
             src={brand1}
             alt="First slide"
+            style={{height:'150px'}}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -18,6 +19,7 @@ const BrandCarusol = () => {
             className="d-block w-100"
             src={brand2}
             alt="Second slide"
+            style={{height:'150px'}}
           />
         </Carousel.Item>
       </Carousel>

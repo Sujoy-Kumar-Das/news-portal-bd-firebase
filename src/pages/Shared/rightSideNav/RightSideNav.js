@@ -12,11 +12,11 @@ const RightSideNav = () => {
             <div className='mt-3'>
                 <h5>Find us on</h5>
                 <ListGroup>
-                    <ListGroup.Item className='mb-2 rounded'> <FaFacebook /> Facebook</ListGroup.Item>
-                    <ListGroup.Item className='mb-2 rounded'> <FaLinkedin /> Linkdin</ListGroup.Item>
-                    <ListGroup.Item className='mb-2 rounded'> <FaWhatsapp /> Whatsapp</ListGroup.Item>
-                    <ListGroup.Item className='mb-2 rounded'> <FaTwitter /> Twiter</ListGroup.Item>
-                    <ListGroup.Item className='mb-2 rounded'> <FaYoutube /> Youtube</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 rounded border'> <FaFacebook /> Facebook</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 rounded border'> <FaLinkedin /> Linkdin</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 rounded border'> <FaWhatsapp /> Whatsapp</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 rounded border'> <FaTwitter /> Twiter</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 rounded border'> <FaYoutube /> Youtube</ListGroup.Item>
                 </ListGroup>
             </div>
             <BrandCarusol></BrandCarusol>
