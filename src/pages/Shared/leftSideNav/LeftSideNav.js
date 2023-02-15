@@ -8,9 +8,9 @@ const LeftSideNav = () => {
         .then(res=>res.json())
         .then(data =>setCatagorys(data))
     },[])
+    // console.log(catagorys)
     return (
-        <div>
-            <h5>Total {catagorys.length} catagorys founded</h5>
+        <div className='position-sticky top-0'>
             <div>
                 {
                     catagorys.map(catagory => <p key={catagory.id}>
